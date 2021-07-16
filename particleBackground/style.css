@@ -15,10 +15,20 @@ img{
 }
 
 h1{
+  
   z-index: 1;
   font-size: 4rem;
 }
 
+#aboutme  a{
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+#aboutme  a:hover{
+  color: rebeccapurple;
+}
 
 
 /* /////////////////////////// */
@@ -137,61 +147,3 @@ h1{
   color: white;
   text-decoration: none;
 }
-
-
-/* //////////////////////// */
-/* footer */
-/* //////////////////////// */
-.footer{
-  /* position:fixed; */
-  height: 3rem;
-  width: 100%;
-  color: white;
-  bottom: 0px;
-  margin: auto 0px ;
-  margin-bottom: 10px;
-}
-
-
-
-.wrapper {
-  -webkit-transform: translate(-50%,-50%);
-}
-
-.footer a {
-  margin-top: 20px;
-  left: 50%;
-  color: #fff;
-  font-size: 2.5rem;
-  text-decoration: none;
-  display: inline-block;
-  position: relative;
-  
-}
-
-
-/* //////////////////////// */
-/*effect-underline*/
-/* //////////////////////// */
-.footer a.effect-underline:after {
-	content: '';
-  position: absolute;
-  left: 0;
-  display: inline-block;
-  height: 1em;
-  width: 100%;
-  border-bottom: 1px solid;
-  margin-top: 10px;
-  opacity: 0;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: scale(0,1);
-	transform: scale(0,1);
-}
-
-.footer a.effect-underline:hover:after {
-  opacity: 1;
-	-webkit-transform: scale(1);
-	transform: scale(1);
-}
-
