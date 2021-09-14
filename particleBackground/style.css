@@ -1,35 +1,38 @@
-body{
+body {
   color: white;
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
 }
 
-canvas{
-  position : absolute;
-  width: 100%; 
+canvas {
+  position: absolute;
+  width: 100%;
   height: 100%;
   z-index: -1;
 }
 
-img{
+img {
   border-radius: 10px;
 }
 
-h1{
-  
+h1 {
   z-index: 1;
   font-size: 4rem;
 }
 
-#aboutme  a{
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#aboutme a {
   color: white;
   text-decoration: none;
   font-size: 2rem;
 }
 
-#aboutme  a:hover{
+#aboutme a:hover {
   color: rebeccapurple;
 }
-
 
 /* /////////////////////////// */
 /* particle affect background */
@@ -38,7 +41,7 @@ h1{
   width: 100%;
   height: 100%;
   background-color: #5d608c;
-  background-image: url('');
+  background-image: url("");
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -48,27 +51,36 @@ h1{
   width: 100%;
   height: 100%;
 
-
   /* put it behind other content */
   /* z-index: -1; */
 }
 
-
 /* /////////////////////////// */
 /* About page I think */
 /* /////////////////////////// */
-.aboutContainer{
+.aboutContainer {
   margin: 0px auto;
   margin-top: 50px;
-  
-
 }
 
-.aboutContainer p{
+.aboutContainer p {
   font-size: 25px;
-  
 }
 
+.grid-container {
+  margin: auto 0px;
+  display: grid;
+  grid-template-columns: 200px 50px 50px;
+}
+
+i {
+  position: relative;
+  bottom: 3px;
+}
+
+a:hover {
+  color: grey;
+}
 /* //////////////////////// */
 /* index styling */
 /* card/image styling */
@@ -80,8 +92,7 @@ h1{
   transition: transform 0.5s;
 }
 
-
-.image:hover{
+.image:hover {
   transform: translateY(-10px);
 }
 
@@ -112,7 +123,7 @@ h1{
 }
 
 .image__overlay--primary {
-  background: rgba(180, 149, 237,0.7);
+  background: rgba(180, 149, 237, 0.7);
 }
 
 .image__overlay > * {
@@ -138,18 +149,36 @@ h1{
   /* margin-top: ; */
   padding-left: 1em;
   padding-right: 1em;
-
 }
 
-.btn a{
-  font-family: 'Fira Mono', monospace;
+.btn a {
+  font-family: "Fira Mono", monospace;
   font-weight: bold;
   color: white;
   text-decoration: none;
 }
 
+/* //////////////////////// */
+/* responsive font sizing
+/* //////////////////////// */
 
+@media (max-width: 1000px) {
+  .image__title,
+  .image__description {
+    font-size: 20px;
+  }
+}
 
+@media (max-width: 800px) {
+  .image__title,
+  .image__description {
+    font-size: 10px;
+  }
+}
 
-
-
+@media (max-width: 575px) {
+  .image__title,
+  .image__description {
+    font-size: 15px;
+  }
+}

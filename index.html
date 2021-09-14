@@ -1,160 +1,308 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="particleBackground/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="particleBackground/style.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <title>Portfolio</title>
-</head>
-<body>
-        <div id="particles-js"></div>   
+  </head>
+  <body>
+    <div id="particles-js"></div>
 
-        <div class="container">
-            <div class="row pt-3 text-center" >
-                <div class=" col-sm-12 d-flex justify-content-center">
-                    <h1>Portfolio <span id="aboutMe"><a href="aboutMe.html" class="effect-underline">About Me</a></span></h1>
-                </div>
-            </div>
-            <div class="row" >
-                <div class=" col-sm-6 d-flex justify-content-center">
-                    <!-- --------------------FILTER JOB SEARCH-------------------- -->
-                    <div class="image">
-                        <img class="image__img" src="websitePictures/FilteredJobSearch.PNG">
-                        <a href="https://github.com/ugureren212/Filtered-Job-Search">
-                            <div class="image__overlay image__overlay--primary">
-                                <div class="image__title">Web Scrape Job Search</div>
-                                <p class="image__description">A webpage that webscrapes Linked In job searches. Users can search for new jobs and filter out job posts via company name. NodeJS and AJAX are used to display content dynamically</p>
-                            </div>
-                        </a>  
-                    </div> 
-                </div>
-                <div class=" col-sm-6 d-flex justify-content-center "  >
-                    <!-- --------------------COMING SOON-------------------- -->
-                    <div class="image">
-                        <img class="image__img" src="websitePictures/passwordGenerator.JPG">
-                        <a href="https://ugureren212.github.io/Time-Table-CSV-Reader/">
-                            <div class="image__overlay image__overlay--primary">
-                                <div class="image__title">Password Generator</div>
-                                <p class="image__description">User can generate new passwords and customise properties of their passwords</p>
-                            </div>
-                        </a>  
-                    </div> 
-                </div>
-            </div>
-            <div class="row" >
-                <div class=" col-sm-6 d-flex justify-content-center "  >
-                    <!-- --------------------TIMETABLE-------------------- -->
-                    <div class="image">
-                        <img class="image__img" src="websitePictures/Timetable.PNG">
-                        <a href="https://ugureren212.github.io/Time-Table-CSV-Reader/">
-                            <div class="image__overlay image__overlay--primary">
-                                <div class="image__title">Time Table</div>
-                                <p class="image__description">A webpage that reads a CSV file and displays dates/times according to the CSV data. The table cells are highlighted depending on the current time</p>
-                            </div>
-                        </a>  
-                    </div> 
-                </div>
-
-                <div class=" col-sm-6 d-flex justify-content-center "  >
-                    <!-- --------------------PYTHON SCRIPT-------------------- -->
-                    <div class="image">
-                        <img class="image__img" src="websitePictures/python.jpg">
-                        <a href="https://github.com/ugureren212/Amazon-Price-Checker">
-                            <div class="image__overlay image__overlay--primary">
-                                <div class="image__title">Amazon Price Checker</div>
-                                <p class="image__description">A Python script that sends emails when an item on amazon price drops</p>
-                            </div>
-                        </a>  
-                    </div> 
-                </div> 
-            </div> 
-            <div class="row" >
-                <div class=" col-sm-6 d-flex justify-content-center "  >
-                    <!-- --------------------LOCATION APP-------------------- -->
-                    <div class="image">
-                        <img class="image__img" src="websitePictures/locationApp.png">
-                        <a href="https://github.com/ugureren212/Location-App">
-                            <div class="image__overlay image__overlay--primary">
-                                <div class="image__title">Location App</div>
-                                <p class="image__description">A location app that lets you do some cool stuff with a map. For more details read the "README.txt" file on my GitHub repository</p>
-                            </div>
-                        </a>  
-                    </div> 
-                </div>
-                <div class="col-sm-6 d-flex justify-content-center"  >
-                    <!-- --------------------CHAT ROOM EJS-------------------- -->
-                    <div class="image">
-                        <img class="image__img" src="websitePictures/blog.png">
-                        <a href="https://github.com/ugureren212/NodeJS-Blog">
-                            <div class="image__overlay image__overlay--primary">
-                                <div class="image__title">NodeJS Chatroom</div>
-                                <p class="image__description">A basic chatRoom that allows users to post, view and delete blogs. Content is dynamically displayed by a template language (EJS)</p>
-                            </div>
-                        </a>
-                    </div> 
-                </div>
-            </div>
-            <div class="row" >
-                <div class="col-sm-6 d-flex justify-content-center "  >
-                     <!-- --------------------CHAT ROOM FIRESTORE-------------------- -->
-                    <div class="image">
-                        <img class="image__img" src="websitePictures/chatRoom.jpeg">
-                        <a href="https://ugureren212.github.io/Real-Time-Chat-Room/">
-                            <div class="image__overlay image__overlay--primary">
-                                <div class="image__title">Chat Room</div>
-                                <p class="image__description">Chat with your friends over different channels</p>
-                            </div>
-                        </a>  
-                    </div> 
-                </div>
-                <div class="col-sm-6 d-flex justify-content-center"  >
-                    <!-- --------------------WEATHER FORECAST-------------------- -->
-                    <div class="image">
-                        <img class="image__img" src="websitePictures/weatherForecast.png">
-                        <a href="https://ugureren212.github.io/Weather-Forecast/">
-                            <div class="image__overlay image__overlay--primary">
-                                <div class="image__title">Weather Forecast</div>
-                                <p class="image__description">Receive live weather forecasts in any city</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="row" >
-                <div class="col-sm-6 d-flex justify-content-center "  >
-                    <!-- --------------------TODO LIST-------------------- -->
-                    <div class="image">
-                        <img class="image__img" src="websitePictures/todoList.png">
-                        <a href="https://ugureren212.github.io/Todo-List/">
-                            <div class="image__overlay image__overlay--primary">
-                                <div class="image__title">Todo List</div>
-                                <p class="image__description">Create a todo list and search through them</p>
-                            </div>
-                        </a>
-                    </div>   
-                </div>
-                <div class="col-sm-6 d-flex justify-content-center"  >
-                    <!-- --------------------QUIZ-------------------- -->
-                    <div class="image">
-                        <img class="image__img" src="websitePictures/quiz.png">
-                        <a href="https://ugureren212.github.io/Quiz/">
-                            <div class="image__overlay image__overlay--primary">
-                                <div class="image__title">Quiz</div>
-                                <p class="image__description">Simple quiz</p>
-                            </div>
-                        </a>
-                    </div>  
-                </div> 
-            </div>
+    <div class="container">
+      <div class="row pt-3 text-center">
+        <div class="col-sm-12 d-flex justify-content-center">
+          <h1>
+            Portfolio
+            <span id="aboutMe"
+              ><a href="aboutMe.html" class="effect-underline"
+                >About Me</a
+              ></span
+            >
+          </h1>
         </div>
- 
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6 d-flex justify-content-center">
+          <!-- --------------------React Form with validation-------------------- -->
+          <div class="image">
+            <img class="image__img" src="websitePictures/simpleForm.JPG" />
+            <a href="https://github.com/ugureren212/React-Form-with-validation">
+              <div class="image__overlay image__overlay--primary">
+                <div class="image__title">React Form with validation</div>
+                <p class="image__description">
+                  A React Form with validation and basic Jest/Cypress testing"
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-6 d-flex justify-content-center">
+          <!-- --------------------NodeJS Validation<-------------------- -->
+          <div class="image">
+            <img class="image__img" src="websitePictures/javasScript.jpg" />
+            <a href="https://github.com/ugureren212/NodeJS-Validation">
+              <div class="image__overlay image__overlay--primary">
+                <div class="image__title">NodeJS validation</div>
+                <p class="image__description">
+                  A nodeJS API that validates users inputs
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 d-flex justify-content-center">
+          <!-- --------------------Spotify Player-------------------- -->
+          <div class="image">
+            <img class="image__img" src="websitePictures/spotifyPlayer.png" />
+            <a href="https://github.com/ugureren212/Spotify-Player">
+              <div class="image__overlay image__overlay--primary">
+                <div class="image__title">Spotify Player</div>
+                <p class="image__description">
+                  A music player using the Spotify API. Also displays lyrics of
+                  the track
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-6 d-flex justify-content-center">
+          <!-- --------------------Recipe App<-------------------- -->
+          <div class="image">
+            <img class="image__img" src="websitePictures/recipeApp.JPG" />
+            <a href="https://github.com/ugureren212/Recipe-App">
+              <div class="image__overlay image__overlay--primary">
+                <div class="image__title">Recipe App</div>
+                <p class="image__description">
+                  React app that lets you create and edit recipes dynamically
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 d-flex justify-content-center">
+          <!-- --------------------Cat API SEARCH-------------------- -->
+          <div class="image">
+            <img class="image__img" src="websitePictures/theCatAPI.JPG" />
+            <a href="https://github.com/ugureren212/The-Cat-API">
+              <div class="image__overlay image__overlay--primary">
+                <div class="image__title">The Cat API</div>
+                <p class="image__description">
+                  A react app that generates a list of cats from "The Cat API"
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-6 d-flex justify-content-center">
+          <!-- --------------------Random Colour Generator<-------------------- -->
+          <div class="image">
+            <img
+              class="image__img"
+              src="websitePictures/randomColourGenerator.JPG"
+            />
+            <a href="https://ugureren212.github.io/Random-Colour-Generator/">
+              <div class="image__overlay image__overlay--primary">
+                <div class="image__title">Random Colour Generator</div>
+                <p class="image__description">
+                  Press space bar to generate a random colour with its
+                  corresponding hex code
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 d-flex justify-content-center">
+          <!-- --------------------FILTER JOB SEARCH-------------------- -->
+          <div class="image">
+            <img
+              class="image__img"
+              src="websitePictures/FilteredJobSearch.PNG"
+            />
+            <a href="https://github.com/ugureren212/Filtered-Job-Search">
+              <div class="image__overlay image__overlay--primary">
+                <div class="image__title">Web Scrape Job Search</div>
+                <p class="image__description">
+                  A webpage that webscrapes Linked In job searches. Users can
+                  search for new jobs and filter out job posts via company name.
+                  NodeJS and AJAX are used to display content dynamically
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-6 d-flex justify-content-center">
+          <!-- --------------------Password Generator<-------------------- -->
+          <div class="image">
+            <img
+              class="image__img"
+              src="websitePictures/passwordGenerator.JPG"
+            />
+            <a href="https://ugureren212.github.io/Time-Table-CSV-Reader/">
+              <div class="image__overlay image__overlay--primary">
+                <div class="image__title">Password Generator</div>
+                <p class="image__description">
+                  User can generate new passwords and customise properties of
+                  their passwords
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 d-flex justify-content-center">
+          <!-- --------------------TIMETABLE-------------------- -->
+          <div class="image">
+            <img class="image__img" src="websitePictures/Timetable.PNG" />
+            <a href="https://ugureren212.github.io/Time-Table-CSV-Reader/">
+              <div class="image__overlay image__overlay--primary">
+                <div class="image__title">Time Table</div>
+                <p class="image__description">
+                  A webpage that reads a CSV file and displays dates/times
+                  according to the CSV data. The table cells are highlighted
+                  depending on the current time
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-6 d-flex justify-content-center">
+          <!-- --------------------PYTHON SCRIPT-------------------- -->
+          <div class="image">
+            <img class="image__img" src="websitePictures/python.jpg" />
+            <a href="https://github.com/ugureren212/Amazon-Price-Checker">
+              <div class="image__overlay image__overlay--primary">
+                <div class="image__title">Amazon Price Checker</div>
+                <p class="image__description">
+                  A Python script that sends emails when an item on amazon price
+                  drops
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 d-flex justify-content-center">
+          <!-- --------------------LOCATION APP-------------------- -->
+          <div class="image">
+            <img class="image__img" src="websitePictures/locationApp.png" />
+            <a href="https://github.com/ugureren212/Location-App">
+              <div class="image__overlay image__overlay--primary">
+                <div class="image__title">Location App</div>
+                <p class="image__description">
+                  A location app that lets you do some cool stuff with a map.
+                  For more details read the "README.txt" file on my GitHub
+                  repository
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-6 d-flex justify-content-center">
+          <!-- --------------------CHAT ROOM EJS-------------------- -->
+          <div class="image">
+            <img class="image__img" src="websitePictures/blog.png" />
+            <a href="https://github.com/ugureren212/NodeJS-Blog">
+              <div class="image__overlay image__overlay--primary">
+                <div class="image__title">NodeJS Chatroom</div>
+                <p class="image__description">
+                  A basic chatRoom that allows users to post, view and delete
+                  blogs. Content is dynamically displayed by a template language
+                  (EJS)
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 d-flex justify-content-center">
+          <!-- --------------------CHAT ROOM FIRESTORE-------------------- -->
+          <div class="image">
+            <img class="image__img" src="websitePictures/chatRoom.jpeg" />
+            <a href="https://ugureren212.github.io/Real-Time-Chat-Room/">
+              <div class="image__overlay image__overlay--primary">
+                <div class="image__title">Chat Room</div>
+                <p class="image__description">
+                  Chat with your friends over different channels
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-6 d-flex justify-content-center">
+          <!-- --------------------WEATHER FORECAST-------------------- -->
+          <div class="image">
+            <img class="image__img" src="websitePictures/weatherForecast.png" />
+            <a href="https://ugureren212.github.io/Weather-Forecast/">
+              <div class="image__overlay image__overlay--primary">
+                <div class="image__title">Weather Forecast</div>
+                <p class="image__description">
+                  Receive live weather forecasts in any city
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 d-flex justify-content-center">
+          <!-- --------------------TODO LIST-------------------- -->
+          <div class="image">
+            <img class="image__img" src="websitePictures/todoList.png" />
+            <a href="https://ugureren212.github.io/Todo-List/">
+              <div class="image__overlay image__overlay--primary">
+                <div class="image__title">Todo List</div>
+                <p class="image__description">
+                  Create a todo list and search through them
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-6 d-flex justify-content-center">
+          <!-- --------------------QUIZ-------------------- -->
+          <div class="image">
+            <img class="image__img" src="websitePictures/quiz.png" />
+            <a href="https://ugureren212.github.io/Quiz/">
+              <div class="image__overlay image__overlay--primary">
+                <div class="image__title">Quiz</div>
+                <p class="image__description">Simple quiz</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="particleBackground/particles.js"></script>
     <script src="particleBackground/app.js"></script>
-            
-</body>
+  </body>
 </html>
