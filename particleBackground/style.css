@@ -14,11 +14,17 @@ img {
   border-radius: 10px;
 }
 
+<<<<<<< HEAD
 h1 {
+=======
+h1{
+  
+>>>>>>> 54d9d6bf534baef90632dedfb8888e816153a6bc
   z-index: 1;
   font-size: 4rem;
 }
 
+<<<<<<< HEAD
 a {
   color: white;
   text-decoration: none;
@@ -28,6 +34,16 @@ a {
   color: white;
   text-decoration: none;
   font-size: 2rem;
+=======
+#aboutme  a{
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+#aboutme  a:hover{
+  color: rebeccapurple;
+>>>>>>> 54d9d6bf534baef90632dedfb8888e816153a6bc
 }
 
 #aboutme a:hover {
@@ -157,6 +173,7 @@ a:hover {
   color: white;
   text-decoration: none;
 }
+<<<<<<< HEAD
 
 /* //////////////////////// */
 /* responsive font sizing
@@ -182,3 +199,5 @@ a:hover {
     font-size: 15px;
   }
 }
+=======
+>>>>>>> 54d9d6bf534baef90632dedfb8888e816153a6bc
